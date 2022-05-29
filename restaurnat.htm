@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<head>
+    <title>The star</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .photo {
+            position: relative;
+           
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: darkgrey;
+            color: gold;
+            font-size: 25px;
+        }
+        li:hover{
+            color:greenyellow;
+        }
+        
+        li {
+            padding: 10px;
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .eat {
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        .p {
+            font-size: 30px;
+        }
+
+        .row img {
+            display: inline block;
+            width: 450px;
+        }
+
+        .img {
+            position: relative;
+            display: inline-block;
+        }
+
+        .name {
+            color: blue;
+            bottom: 8px;
+            top: 16px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: gold;
+            font-size: 25px;
+        }
+        a:hover{
+            color:greenyellow
+        }
+        button {
+            font-size: 30px;
+            color: goldenrod;
+        }
+        
+        .text {
+            height:65px;
+            width:217px;
+   position: absolute;
+   font-size:60px;
+   color:goldenrod;
+   /* background-color: white; */
+   bottom: 50%;
+     top: 15%;
+     right:50%;
+     left:36%
+}
+    </style>
+</head>
+<header>
+
+    <ul>
+
+        <li id="top"><a href="menu.htm">Menu</a></li>
+        <li><a href="rooms.htm">Rooms</a></li>
+        <li><a href="bank.htm"></a>Banquet Hall</a></li>
+        <li><a href="chef.htm"></a>Our Branches</a></li>
+        <li><a href="branch.htm"></a>About us</a></li>
+        <li><a href="contact.htm"></a>Contact Us</a></li>
+    </ul>
+
+</header>
+
+<body style="background-color: black;color:whitesmoke;">
+    <div class="photo">
+    <img src="hotelimg.jpg" alt="restaurant pic"
+        style="height:700px;width:1500px;">
+        <div class="text" >
+             welcome
+        </div>
+    </div>
+
+    <p><span class="eat" style="color:goldenrod">Sitara</span><span class="p"> is a part of AT group of hotels.We have been serving for the last
+            25 years
+            spreading in cities like Mumbai,Kolkata,Pune,Delhi,Goa and many more.Apart from dining facility we
+            provide facility of booking hotel rooms and also we have banquets for marriage and other grand ceremonies.
+            we also provide theme based decorations in such ceremonies.We guarantee that our hostel services will not
+            get you dissapointed as we have India's best trained staffs working for us.The taste of the food will make
+            you
+            go crazy for we have very talrnted and experienced chefs with us.we suggest you to go through this website
+            for
+            all the insights regarding food,stay and banquets.</span>
+    </p>
+    <p class="p">Click on following link to see views of our hotels</p>
+    <details>
+        <summary style="font-size: 200%; color:goldenrod;">Dining area</summary>
+        <p class="row">
+            <img src=dining1.WEBP>
+            <img src=d1.WEBP>
+            <img src=r1.jpg>
+        </p>
+    </details>
+    <details>
+        <summary style="font-size: 200%; color:goldenrod;">Banquets</summary>
+        <div class="row">
+            <img src=b1.jpg>
+            <img src=ban.jpg>
+            <img src=quets.jpeg>
+        </div>
+    </details>
+    <details>
+        <summary style="font-size: 200%; color:goldenrod;">Rooms</summary>
+        <div class="row">
+            <img src=room.jpg>
+            <img src=2bd.webp>
+            <img src=room.jpg>
+        </div>
+    </details>
+    <details>
+        <summary style="font-size: 200%; color:goldenrod;">More photos</summary>
+        <div class="row">
+            <img src=build.jfif>
+            <img src=building.webp>
+            <img src=lobby.jpg>
+        </div>
+    </details>
+    <p class="p">To book online use the following web site </p>
+    <iframe src="https://www.trivago.in/" style="height:600px; width:1000px;"></iframe><br><br>
+    <center>
+        
+        <p style="font-size: 200%;">how would you rate our website</p>
+        <form>
+            <input type="radio" id="1">
+            <label id="1" name="1">1</label>
+            <input type="radio" id="2">
+            <label id="2" name="2">2</label>
+            <input type="radio" id="3">
+            <label id="3" name="3">3</label>
+            <input type="radio" id="4">
+            <label id="4" name="4">4</label>
+            <input type="radio" id="5">
+            <label id="5" name="5">5</label>
+        </form>
+        <p><button type="button"><a href="submit.htm">SUBMIT</a></button></p>
+        <button type="button">
+            <centre><a href="#top">click to jump to top of the page</a> </centre>
+        </button>
+    </center>
+</body>
